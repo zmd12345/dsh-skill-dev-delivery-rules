@@ -27,7 +27,8 @@
     "locale",
     "icon.svg",
     "README.md",
-    "market"
+    "market",
+    "assets"
   ],
   "dsh": {
     "bundle": {
