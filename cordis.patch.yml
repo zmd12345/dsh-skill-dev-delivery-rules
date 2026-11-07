@@ -1,0 +1,4 @@
+# Bundle 补丁：把「开发交付规则」技能插件插入 profile 的组合树。
+- insert:
+    - id: skill-dev-delivery-rules
+      name: dsh-skill-dev-delivery-rules

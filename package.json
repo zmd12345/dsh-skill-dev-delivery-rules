@@ -1,0 +1,55 @@
+{
+  "name": "dsh-skill-dev-delivery-rules",
+  "version": "1.2.0",
+  "description": "将《开发交付规则》注册为渐进披露的会话技能：正文只含场景索引与交付自检，条款全文按任务需要以 read 工具加载，减少常驻上下文开销。",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./build.js": "./build.js",
+    "./sections/*.md": "./sections/*.md",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "build.js",
+    "rules-source.md",
+    "skill-body.md",
+    "meta.json",
+    "sections",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "market"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill",
+    "dev-delivery-rules",
+    "delivery-rules",
+    "workflow"
+  ],
+  "license": "MIT",
+  "author": "zmd12345",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmd12345/dsh-skill-dev-delivery-rules.git"
+  },
+  "homepage": "https://github.com/zmd12345/dsh-skill-dev-delivery-rules#readme",
+  "bugs": {
+    "url": "https://github.com/zmd12345/dsh-skill-dev-delivery-rules/issues"
+  }
+}

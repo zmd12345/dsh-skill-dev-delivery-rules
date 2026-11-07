@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Dev delivery rules",
+    "description": "Registers the \"Development Delivery Rules\" as a progressive-disclosure session skill: the loaded body carries only the scenario index and the delivery checklist, while individual rule sections (clarification, layering, evidence-driven debugging, minimal changes, graded verification, feature parity, async UI feedback, sizing, CLI safety, cleanup) are read on demand to save context."
+  }
+}
