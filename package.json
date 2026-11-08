@@ -1,6 +1,6 @@
 {
   "name": "dsh-skill-dev-delivery-rules",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "把《开发交付规则》注册为技能家族：1 个核心技能 + 9 个专项技能（分层/调试/最小变更/验证分级/迁移对等/UI反馈/样式尺寸/命令行安全/项目记录），按任务场景自动加载对应规则，每个会话只为用到的条款付 token。",
   "type": "module",
   "main": "index.js",
